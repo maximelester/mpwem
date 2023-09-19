@@ -1,2 +1,2 @@
-# mpwem
+# MPWEM
 Moiré plane wave expansion model
