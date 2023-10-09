@@ -17,7 +17,7 @@ The file should be adequately commented for detailed understanding at each step 
 The physical system in the example file is alpha-bismuthene (aBi) on molybdenum disulfide (MoS2) used in the seminal paper.
 The raw STM data is contained in the bimos2_rawdata.txt.
 
-[figure.pdf](https://github.com/maximelester/mpwem/files/12846382/figure.pdf)
+![figure](https://github.com/maximelester/mpwem/assets/75083058/dea2e55a-db10-4cfe-968b-d9d0ae0f5bf5)
 
 
 The additional python file (symbols.py) is a library of special characters and only used for display purposes.
