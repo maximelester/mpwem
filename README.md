@@ -25,8 +25,7 @@ The raw STM data is contained in the bimos2_rawdata.txt.
 
 ## Dependencies
 
-The following python libraries are required: <span style="font-family:Courier; font-size:4em;">numpy</span>, <span style="font-family:Courier; font-size:4em;">matplotlib</span>, <span style="font-family:Courier; font-size:4em;">scipy</span>, <span style="font-family:Courier; font-size:4em;">time</span>
-The additional python file (symbols.py) is a library of special characters and only used for display purposes.
+The following python libraries are required: numpy, matplotlib, scipy and time. The extra python file (symbols.py) is a library of special characters and only used for display purposes.
 
 ## Contact
 
