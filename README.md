@@ -15,9 +15,12 @@ The main ingredients of the MPWEM are:
 The example.py file shows in detail how to use the MPWEM.py functions leading to the STM simulated image (includes plotting routines).
 The file should be adequately commented for detailed understanding at each step of the simulation procedure.
 The physical system in the example file is alpha-bismuthene (aBi) on molybdenum disulfide (MoS2) used in the seminal paper.
-
 The raw STM data is contained in the bimos2_rawdata.txt.
-The python file symbols.py is a library of special characters and only used for display purposes.
+
+[figure.pdf](https://github.com/maximelester/mpwem/files/12846382/figure.pdf)
+
+
+The additional python file (symbols.py) is a library of special characters and only used for display purposes.
 
 For more information, please contact me via email at maxime.lester@fis.uni.lodz.pl (or pawel.kowalczyk@uni.lodz.pl)
 If this model is useful, please cite the reference paper (DOI: to be disclosed).
