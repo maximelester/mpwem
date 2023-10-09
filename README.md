@@ -18,7 +18,7 @@ The MPWEM.py library and example.py file should be useful for anyone interested 
 
 ## Files 
 
-The example.py is a python script implementing the MPWEM.py functions leading to the STM simulated image (includes plotting routines). The file should be adequately commented for detailed understanding at each step of the simulation procedure. The physical system in the example file is alpha-bismuthene (aBi) on molybdenum disulfide (MoS2) used in the seminal paper. The raw STM data is contained in the bimos2_rawdata.txt.
+The example.py is a python script implementing the MPWEM.py functions leading to the STM simulated image (includes plotting routines). The file should be adequately commented for detailed understanding at each step of the simulation procedure. The physical system in the example file is alpha-bismuthene (aBi) on molybdenum disulfide (MoS2) used in the reference paper. The raw STM data is contained in the bimos2_rawdata.txt.
 
 ![figure](figure.png)
 
