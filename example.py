@@ -1,7 +1,8 @@
 # example.py
 
 '''
-This file
+This file is an example script showcasing the essential aspects of the MPWEM
+More information in the paper (DOI: to be disclosed) and in README.md
 
 '''
 
@@ -20,7 +21,6 @@ The raw experimental STM data (bi_mos2_stm.txt))
 is simply pulled and stored into an numpy 2D array
 the size of the STM image is Lx, Ly
 '''
-
 
 # Path to data file
 
@@ -115,7 +115,6 @@ with plane-wave parameters (kx, ky) at the precise a-Bi location
 the plane-wave parameters are later used to generate the moire term
 '''
 
-
 # alpha-Bi lattice parameters (for valid fitting of STM data)
 
 r11, r21 = 4.4649, 4.8598 # angstrom
@@ -185,9 +184,8 @@ zT = a0*((1-mu)*((1-tau)*z0 + tau*z1) + mu*zM)
 
 CMAP = 'gist_heat' # colormap of topography images
 CMAP_FFT = 'magma' # colormap of modulus fft images
-GAMMA = 0.5 # FFT vertical scale low intensity enhancement: (FT)**GAMMA 
-bbox = {'edgecolor':[0,0,0,0], 'facecolor':[1,1,1,1]} # text style
-
+GAMMA = 0.5 # FFT vertical scale low intensity enhancement: (FT)**GAMMA (linear scale if GAMMA=1)
+bbox = {'edgecolor':[0,0,0,0], 'facecolor':[1,1,1,1]} # text box style
 
 # Figure
 
@@ -246,13 +244,13 @@ ax.imshow(np.abs(mp.FT(zT)), extent=rextent, origin='lower', cmap=CMAP_FFT, norm
 # Customization
 
 for ax in axs[0]:
-	mp.Scalebar(ax, size=25, unit='a', color='white')
+	mp.Scalebar(ax, size=25, unit='a', color='white') # adds scalebar on topo images
 
 for ax in axs[1]:
 	ax.set_xlim([-0.8, 0.8])
 	ax.set_ylim([-0.8, 0.8])
-	mp.Scalebar(ax, size=0.25, unit='a-1', color='white')
-	ax.plot(0,0, '+w')
+	mp.Scalebar(ax, size=0.25, unit='a-1', color='white') # adds scale bar on FFT images
+	ax.plot(0,0, '+w') # adds marker at origin
 
 
 plt.show()

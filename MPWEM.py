@@ -635,7 +635,6 @@ def AddIndices(params, ax, k0):
 		ax.add_artist(c)
 		ax.text(0.98, 0.02, s=f'k{sy.subscript_0} = {k0}', transform=ax.transAxes, ha='right')
 
-
 def NiceIndex(indices):
 	'''
 	'''
