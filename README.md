@@ -5,7 +5,7 @@ Python library and example file.
 
 ## Introduction
 
-Full paper describing the MPWEM can be found (DOI: 10.48550/arXiv.2310.06535, <a href="https://https://arxiv.org/abs/2310.06535" target="_blank">link</a>)
+Full paper describing the MPWEM can be found (DOI: 10.48550/arXiv.2310.06535, <a href="https://arxiv.org/abs/2310.06535" target="_blank">link</a>)
 
 The python library (MPWEM.py) allows to simulate a scanning tunneling microscopy (STM) image for arbitrary layer geometries and twist angles using the MPWEM.
 The main ingredients of the MPWEM are:
@@ -30,4 +30,4 @@ The following python libraries are required: numpy, matplotlib, scipy and time. 
 
 For more information, please contact me via email at maxime.lester@fis.uni.lodz.pl (or pawel.kowalczyk@uni.lodz.pl)
 
-If this model is useful, please cite the reference paper (DOI: 10.48550/arXiv.2310.06535, <a href="https://https://arxiv.org/abs/2310.06535" target="_blank">link</a>).
+If this model is useful, please cite the reference paper (DOI: 10.48550/arXiv.2310.06535, <a href="https://arxiv.org/abs/2310.06535" target="_blank">link</a>).
