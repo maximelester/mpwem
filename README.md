@@ -1,7 +1,7 @@
 # MPWEM
 Moiré plane wave expansion model
 Python library and example file.
-(c) Maxime Le Ster, 2023
+(c) Maxime Le Ster, 2023-2024
 
 ## Introduction
 
