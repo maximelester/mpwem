@@ -30,4 +30,4 @@ The following python libraries are required: numpy, matplotlib, scipy and time. 
 
 For more information, please contact me via email at maxime.lester@fis.uni.lodz.pl (or pawel.kowalczyk@uni.lodz.pl)
 
-If this model is useful, please cite the reference paper (DOI: 10.48550/arXiv.2310.06535, <a href="https://arxiv.org/abs/2310.06535" target="_blank">link</a>).
+If this model is useful, please cite the reference paper (M. Le Ster et al., Phys.  Rev. B 110, 195418 (2024); DOI: 10.1103/PhysRevB.110.195418, <a href="https://doi.org/10.1103/PhysRevB.110.195418" target="_blank">link</a>).
